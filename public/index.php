@@ -25,9 +25,7 @@
                 </div>
                 <div class="content">
                     <p>Available at:</p>
-                    <a>website</a><br>
-                    <a>website</a><br>
-                    <a>website</a><br>
+                    <a>website</a> | <a>website</a> | <a>website</a>
                 </div>
             </div>
         </div>
@@ -47,9 +45,7 @@
                 </div>
                 <div class="content">
                     <p>Available at:</p>
-                    <a>website</a><br>
-                    <a>website</a><br>
-                    <a>website</a><br>
+                    <a>website</a> | <a>website</a> | <a>website</a>
                 </div>
             </div>
         </div>
