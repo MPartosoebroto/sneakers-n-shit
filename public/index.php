@@ -7,7 +7,7 @@
     </head>
     <body>
         <header>
-            <h3 class="title is-3">Sneakers 'n shit</h3>
+            <h5 class="title is-5">Sneakers 'n shit</h5>
         </header>
         <div class="card">
             <div class="card-image">
@@ -53,5 +53,10 @@
                 </div>
             </div>
         </div>
+    <footer>
+        <div class="content">
+            <p>Test</p>
+        </div>
+    </footer>
     </body>
 </html>
