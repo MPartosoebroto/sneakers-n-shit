@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "watch-css": "./node_modules/.bin/node-sass -w clientcode/css/ -o public/assets/ --output-style=compressed"
+  },
+  "config": {
+    "process-timeout": 0
+  }
+}
