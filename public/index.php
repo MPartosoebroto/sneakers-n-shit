@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Marcel's Website</title>
+    <title>Pattasoebroto - Sneaker releasesgit</title>
     <link rel="stylesheet" href="/assets/main.css">
     <meta name="viewport" content="width=device-width,user-scalable=0">
 </head>
