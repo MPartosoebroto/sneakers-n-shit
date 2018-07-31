@@ -1,5 +1,32 @@
 header {
-  color: $color-lightgrey;
   background: $color-grey;
   padding: 20px;
+}
+
+footer {
+  background: $color-grey;
+  padding: 20px;
+}
+
+.centered {
+  margin: auto;
+  max-width: 1024px;
+}
+
+.product-price {
+  font-size: 15px;
+}
+
+@media (min-width: 769px) {
+  .products {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .product-price {
+    font-size: 18px;
+  }
+
 }

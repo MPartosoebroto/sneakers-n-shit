@@ -1,58 +1,109 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Marcel's Website</title>
-        <link rel="stylesheet" href="/assets/main.css">
-        <meta name="viewport" content="width=device-width,user-scalable=0">
-    </head>
-    <body>
-        <header>
-            <h5 class="title is-5">Sneakers 'n shit</h5>
-        </header>
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-256x256">
-                    <img src="https://pbs.twimg.com/media/DFmNkjvU0AAYixV.jpg" alt="Sample image1">
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content">
-                        <p class="title is-4">Nike Flyknit Trainer</p>
-                        <p class="subtitle is-6">€150,-</p>
-                        <p class="subtitle is-6">Release date: 24/07/2018</p>
+<head>
+    <title>Marcel's Website</title>
+    <link rel="stylesheet" href="/assets/main.css">
+    <meta name="viewport" content="width=device-width,user-scalable=0">
+</head>
+<body>
+<header>
+    <div class="centered"><h5 class="title is-5">Sneakers 'n shit</h5></div>
+</header>
+<div class="products">
+    <div class="centered">
+        <div class="tile">
+            <div class="tile is-parent is-paddingless">
+                <div class="card tile is-vertical is-child is-4">
+                    <div class="card-image">
+                        <figure class="image is-256x256">
+                            <img src="https://pbs.twimg.com/media/DFmNkjvU0AAYixV.jpg" alt="Sample image1">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4 is-marginless">Nike Flyknit Trainer</p>
+                                <p class="subtitle is-6 is-marginless"><span class="product-price">€150,-</span></p>
+                                <p class="subtitle is-6 release-date">Release date: 24/07/2018</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="is-marginless">Available at:</p>
+                            <a>website</a> | <a>website</a> | <a>website</a>
+                        </div>
                     </div>
                 </div>
-                <div class="content">
-                    <p>Available at:</p>
-                    <a>website</a> | <a>website</a> | <a>website</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-image">
-                <figure class="image is-256x256">
-                    <img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/zwnqu2emjltkspwxjcvs/air-max-93-herenschoen-CJ5htx.jpg" alt="Sample image2">
-                </figure>
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content">
-                        <p class="title is-4">Nike Air Max 93</p>
-                        <p class="subtitle is-6">€145,-</p>
-                        <p class="subtitle is-6">27/07/2018</p>
+                <div class="card tile is-vertical is-child is-4">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="https://c.static-nike.com/a/images/t_PDP_864_v1/f_auto/zwnqu2emjltkspwxjcvs/air-max-93-herenschoen-CJ5htx.jpg"
+                                 alt="Sample image2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4 is-marginless">Nike Air Max 93</p>
+                                <p class="subtitle is-6 is-marginless"><span class="product-price">€145,-</span></p>
+                                <p class="subtitle is-6 release-date">Release date: 27/07/2018</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="is-marginless">Available at:</p>
+                            <a>website</a> | <a>website</a> | <a>website</a>
+                        </div>
                     </div>
                 </div>
-                <div class="content">
-                    <p>Available at:</p>
-                    <a>website</a> | <a>website</a> | <a>website</a>
+                <div class="card tile is-vertical is-child is-4">
+                    <div class="card-image">
+                        <figure class="image is-256x256">
+                            <img src="https://pbs.twimg.com/media/DFmNkjvU0AAYixV.jpg" alt="Sample image1">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4 is-marginless">Nike Flyknit Trainer</p>
+                                <p class="subtitle is-6 is-marginless"><span class="product-price">€150,-</span></p>
+                                <p class="subtitle is-6 release-date">Release date: 24/07/2018</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="is-marginless">Available at:</p>
+                            <a>website</a> | <a>website</a> | <a>website</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    <footer>
-        <div class="content">
-            <p>Test</p>
+        <div class="tile">
+            <div class="tile is-parent is-paddingless">
+                <div class="card tile is-vertical is-child is-4">
+                    <div class="card-image">
+                        <figure class="image is-256x256">
+                            <img src="https://pbs.twimg.com/media/DFmNkjvU0AAYixV.jpg" alt="Sample image1">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <p class="title is-4 is-marginless">Nike Flyknit Trainer</p>
+                                <p class="subtitle is-6 is-marginless"><span class="product-price">€150,-</span></p>
+                                <p class="subtitle is-6 release-date">Release date: 24/07/2018</p>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p class="is-marginless">Available at:</p>
+                            <a>website</a> | <a>website</a> | <a>website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
-    </body>
+    </div>
+</div>
+<footer>
+    <div class="centered"><h5 class="title is-5">Test</h5></div>
+</footer>
+</body>
 </html>
