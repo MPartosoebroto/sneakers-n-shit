@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-    <div class="centered"><h5 class="title is-5">Sneakers 'n shit</h5></div>
+    <div class="centered"><h5 class="title is-5">Pattasoebroto</h5></div>
 </header>
 <div class="products">
     <div class="centered">
@@ -24,12 +24,12 @@
                             <div class="media-content">
                                 <p class="title is-4 is-marginless">Nike Flyknit Trainer</p>
                                 <p class="subtitle is-6 is-marginless"><span class="product-price">€150,-</span></p>
-                                <p class="subtitle is-6 release-date">Release date: 24/07/2018</p>
+                                <p class="subtitle is-6"><span class="release-date">Release date: <b>24/07/2018</b></span></p>
                             </div>
                         </div>
                         <div class="content">
-                            <p class="is-marginless">Available at:</p>
-                            <a>website</a> | <a>website</a> | <a>website</a>
+                            <p class="is-marginless available">Available at:</p>
+                            <a class ="website">website</a> | <a class ="website">website</a> | <a class ="website">website</a>
                         </div>
                     </div>
                 </div>
@@ -45,12 +45,12 @@
                             <div class="media-content">
                                 <p class="title is-4 is-marginless">Nike Air Max 93</p>
                                 <p class="subtitle is-6 is-marginless"><span class="product-price">€145,-</span></p>
-                                <p class="subtitle is-6 release-date">Release date: 27/07/2018</p>
+                                <p class="subtitle is-6"><span class="release-date">Release date: <b>27/07/2018</b></span></p>
                             </div>
                         </div>
                         <div class="content">
-                            <p class="is-marginless">Available at:</p>
-                            <a>website</a> | <a>website</a> | <a>website</a>
+                            <p class="is-marginless available">Available at:</p>
+                            <a class="website">website</a> | <a class="website">website</a> | <a class="website">website</a>
                         </div>
                     </div>
                 </div>
@@ -65,12 +65,12 @@
                             <div class="media-content">
                                 <p class="title is-4 is-marginless">Nike Flyknit Trainer</p>
                                 <p class="subtitle is-6 is-marginless"><span class="product-price">€150,-</span></p>
-                                <p class="subtitle is-6 release-date">Release date: 24/07/2018</p>
+                                <p class="subtitle is-6"><span class="release-date">Release date: <b>24/07/2018</b></span></p>
                             </div>
                         </div>
                         <div class="content">
-                            <p class="is-marginless">Available at:</p>
-                            <a>website</a> | <a>website</a> | <a>website</a>
+                            <p class="is-marginless available">Available at:</p>
+                            <a class="website">website</a> | <a class="website">website</a> | <a class="website">website</a>
                         </div>
                     </div>
                 </div>
@@ -89,12 +89,12 @@
                             <div class="media-content">
                                 <p class="title is-4 is-marginless">Nike Flyknit Trainer</p>
                                 <p class="subtitle is-6 is-marginless"><span class="product-price">€150,-</span></p>
-                                <p class="subtitle is-6 release-date">Release date: 24/07/2018</p>
+                                <p class="subtitle is-6"><span class="release-date">Release date: <b>24/07/2018</b></span></p>
                             </div>
                         </div>
                         <div class="content">
-                            <p class="is-marginless">Available at:</p>
-                            <a>website</a> | <a>website</a> | <a>website</a>
+                            <p class="is-marginless available">Available at:</p>
+                            <a class="website">website</a> | <a class="website">website</a> | <a class="website">website</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
     </div>
 </div>
 <footer>
-    <div class="centered"><h5 class="title is-5">Test</h5></div>
+    <div class="centered"><h5 class="title is-5">Pattasoebroto</h5></div>
 </footer>
 </body>
 </html>

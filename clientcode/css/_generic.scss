@@ -1,9 +1,11 @@
 header {
+  color: black;
   background: $color-grey;
   padding: 20px;
 }
 
 footer {
+  color: black;
   background: $color-grey;
   padding: 20px;
 }
@@ -14,7 +16,19 @@ footer {
 }
 
 .product-price {
-  font-size: 15px;
+  font-size: 13px;
+}
+
+.release-date {
+  font-size: 13px;
+}
+
+.available {
+  font-size: 13px;
+}
+
+.website {
+  font-size: 13px;
 }
 
 @media (min-width: 769px) {
