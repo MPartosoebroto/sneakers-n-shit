@@ -1,13 +1,19 @@
+$desktop-font-size: 13px;
+
 header {
   color: black;
   background: $color-grey;
-  padding: 20px;
 }
 
-footer {
+.footer {
   color: black;
-  background: $color-grey;
-  padding: 20px;
+  background-color: $color-grey;
+  padding: 40px;
+}
+
+.control {
+  padding-top: 18px;
+  left: 69rem;
 }
 
 .centered {
@@ -16,19 +22,41 @@ footer {
 }
 
 .product-price {
-  font-size: 13px;
+  font-size: $desktop-font-size;
 }
 
 .release-date {
-  font-size: 13px;
+  font-size: $desktop-font-size;
 }
 
 .available {
-  font-size: 13px;
+  font-size: $desktop-font-size;
 }
 
 .website {
-  font-size: 13px;
+  font-size: $desktop-font-size;
+}
+
+.hero.is-medium .hero-head {
+  color: black;
+  background: $color-grey;
+}
+
+.hero.is-medium .hero-body {
+  color: black;
+  background: $color-grey;
+  padding: 40px;
+}
+
+.hero.is-medium .hero-foot {
+  color: black;
+  background: $color-grey;
+}
+
+.pagination {
+  padding-bottom: 18px;
+  padding-right: 130px;
+  padding-left: 130px;
 }
 
 @media (min-width: 769px) {
@@ -38,7 +66,6 @@ footer {
 }
 
 @media (min-width: 1024px) {
-
   .product-price {
     font-size: 18px;
   }
