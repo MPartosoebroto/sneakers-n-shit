@@ -58,7 +58,7 @@
     </section>
 </header>
 <div class="field">
-    <div class="control">
+    <div class="container">
         <div class="select is-small">
             <select>
                 <option>Select dropdown</option>
@@ -68,7 +68,7 @@
     </div>
 </div>
 <div class="products">
-    <div class="centered">
+    <div class="container">
         <div class="tile">
             <div class="tile is-parent is-paddingless">
                 <div class="card tile is-vertical is-child is-4">
@@ -264,23 +264,23 @@
                 </div>
             </div>
         </div>
+        <nav class="pagination is-small" role="navigation" aria-label="pagination">
+            <a class="pagination-previous">Previous</a>
+            <a class="pagination-next">Next page</a>
+            <ul class="pagination-list">
+                <li>
+                    <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
+                </li>
+                <li>
+                    <a class="pagination-link" aria-label="Goto page 2">2</a>
+                </li>
+                <li>
+                    <a class="pagination-link" aria-label="Goto page 3">3</a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </div>
-<nav class="pagination is-small" role="navigation" aria-label="pagination">
-    <a class="pagination-previous">Previous</a>
-    <a class="pagination-next">Next page</a>
-    <ul class="pagination-list">
-        <li>
-            <a class="pagination-link is-current" aria-label="Page 1" aria-current="page">1</a>
-        </li>
-        <li>
-            <a class="pagination-link" aria-label="Goto page 2">2</a>
-        </li>
-        <li>
-            <a class="pagination-link" aria-label="Goto page 3">3</a>
-        </li>
-    </ul>
-</nav>
 <footer class="footer">
     <div class="content has-text-centered">
         <p>

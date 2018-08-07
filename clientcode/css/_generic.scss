@@ -11,11 +11,6 @@ header {
   padding: 40px;
 }
 
-.control {
-  padding-top: 18px;
-  left: 69rem;
-}
-
 .centered {
   margin: auto;
   max-width: 1024px;
@@ -38,25 +33,16 @@ header {
 }
 
 .hero.is-medium .hero-head {
-  color: black;
   background: $color-grey;
 }
 
 .hero.is-medium .hero-body {
-  color: black;
   background: $color-grey;
   padding: 40px;
 }
 
 .hero.is-medium .hero-foot {
-  color: black;
   background: $color-grey;
-}
-
-.pagination {
-  padding-bottom: 18px;
-  padding-right: 130px;
-  padding-left: 130px;
 }
 
 @media (min-width: 769px) {
