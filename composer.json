@@ -1,8 +1,19 @@
 {
+  "autoload": {
+    "psr-4": {
+      "Pattasoebroto\\": "src"
+    }
+  },
   "scripts": {
     "watch-css": "./node_modules/.bin/node-sass -w clientcode/css/ -o public/assets/ --output-style=compressed"
   },
   "config": {
     "process-timeout": 0
+  },
+  "require": {
+    "slim/slim": "^3.10",
+    "twig/twig": "^2.5",
+    "league/container": "^3.2",
+    "zendframework/zend-diactoros": "^1.8"
   }
 }
