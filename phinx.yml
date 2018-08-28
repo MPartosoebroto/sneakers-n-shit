@@ -18,9 +18,9 @@ environments:
     production:
         adapter: mysql
         host: 127.0.0.1
-        name: ''
-        user: ''
-        pass: ''
+        name: '%%PHINX_DBNAME%%'
+        user: '%%PHINX_DBUSER%%'
+        pass: '%%PHINX_DBPASSWORD%%'
         port: 3306
         charset: utf8
 
