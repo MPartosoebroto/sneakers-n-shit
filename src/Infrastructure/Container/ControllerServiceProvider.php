@@ -5,6 +5,8 @@ namespace Pattasoebroto\Infrastructure\Container;
 
 use League\Container\ServiceProvider\AbstractServiceProvider;
 use Pattasoebroto\Infrastructure\HomepageController;
+use PDO;
+use Twig_Environment;
 
 class ControllerServiceProvider extends AbstractServiceProvider
 {
@@ -21,9 +23,10 @@ class ControllerServiceProvider extends AbstractServiceProvider
         $container = $this->getContainer();
 
         $container->add(HomepageController::class, function () use ($container): HomepageController {
-            $templateRenderer = $container->get(\Twig_Environment::class);
+            $databaseConnection = $container->get(PDO::class);
+            $templateRenderer = $container->get(Twig_Environment::class);
 
-            return new HomepageController($templateRenderer);
+            return new HomepageController($templateRenderer, $databaseConnection);
         });
     }
 }
