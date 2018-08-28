@@ -15,5 +15,8 @@
     "twig/twig": "^2.5",
     "league/container": "^3.2",
     "zendframework/zend-diactoros": "^1.8"
+  },
+  "require-dev": {
+    "robmorgan/phinx": "^0.10.6"
   }
 }

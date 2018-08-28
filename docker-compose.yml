@@ -17,6 +17,7 @@ services:
      - marcel-data
    depends_on:
      - marcel-php
+     - marcel-database
  marcel-data:
    container_name: marcel-data
    image: busybox
@@ -24,8 +25,18 @@ services:
      - .:/development
    command: /bin/true
  marcel-development:
-    build: ./docker/development
-    image: marcel-development
-    volumes_from:
-      - marcel-data
-    command: /bin/true
+   build: ./docker/development
+   image: marcel-development
+   volumes_from:
+     - marcel-data
+   command: /bin/true
+ marcel-database:
+   container_name: marcel-database
+   environment:
+     MYSQL_DATABASE: pattasoebroto
+     MYSQL_PASSWORD: development_password
+     MYSQL_ROOT_PASSWORD: development
+     MYSQL_USER: development_user
+   image: mysql:5.7
+   ports:
+    - 3306:3306
